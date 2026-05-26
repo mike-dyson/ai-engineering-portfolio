@@ -1,6 +1,6 @@
 AI Engineering Portfolio
 
-Full-Stack AI Engineer Senior | Architecte de Systèmes Complexes**
+Full-Stack AI Engineer Senior | Architecte de Systèmes Complexes
 
 Développeur expérimenté spécialisé dans la conception et la mise en production de systèmes robustes, scalables et à forte valeur ajoutée. 
 
