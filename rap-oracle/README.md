@@ -3,28 +3,29 @@ Rap Oracle — Architecture Backend & Moteur Économique Complexe
 Plateforme de jeu mobile avec économie dynamique, marketplace P2P et systèmes temps réel.
 
 Contexte
-Rap Oracle est une application mobile de simulation et trading de cartes d’artistes rap français, avec un moteur économique sophistiqué et des mécaniques compétitives (Clash PvP).
+Application mobile de simulation et trading de cartes d’artistes rap français, dotée d’un moteur économique sophistiqué et de mécaniques compétitives (Clash PvP).
 
-Défis techniques majeurs
-- Conception d’un moteur économique avancé (pricing dynamique, rareté, dilution logarithmique)
+Captures du projet
+
+![Stack Technique](assets/raporacle02.png)
+![Architecture & Structure](assets/raporacle01.png)
+
+Défis techniques relevés
+- Conception d’un moteur économique avancé (pricing dynamique, rareté, dilution logarithmique, multiplicateurs)
 - Architecture Double-Bassin (Market + Scouting Pool) avec promotions automatiques
 - Système anti-abus complet (rate limiting, cooldowns, optimistic locking)
-- Gestion asynchrone avec files d’attente pour les jobs différés
-- Clash PvP en temps différé avec snapshots et résolution basée sur données externes
+- Gestion asynchrone avec BullMQ + Redis
+- Clash PvP différé avec snapshots et résolution sur données externes
 - Synchronisation temps réel (WebSocket + Push Notifications)
-
-Architecture & Points forts
-- Economy Engine V2 : Pricing intelligent, stock limité, multiplicateurs de risque
-- BullMQ + Redis : Orchestration avancée des jobs asynchrones
-- The Drop : Cron hebdomadaire avec harvesting et rééquilibrage
-- Architecture prête pour scaler (Provider-Agnostic)
 
 Stack technique
 - Backend : Node.js + TypeScript, Express, Socket.IO
 - Base de données : PostgreSQL
 - Queues : BullMQ + Redis (Upstash)
-- Storage*: Supabase (CDN)
+- Storage : Supabase
 - Mobile : React Native + Expo, Zustand
-- Temps réel : WebSocket + Push Notifications
+- Cron & Harvesting : Apple Music + jobs planifiés
 
-Captures d’architecture à venir dans le dossier `rap-oracle/assets/`
+Ce projet illustre ma capacité à concevoir et maintenir des systèmes complexes avec contraintes économiques fortes et scalabilité.
+
+Captures supplémentaires bienvenues dans le dossier `assets/`.
