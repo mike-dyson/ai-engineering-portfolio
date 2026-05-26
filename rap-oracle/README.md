@@ -28,4 +28,3 @@ Stack technique
 
 Ce projet illustre ma capacité à concevoir et maintenir des systèmes complexes avec contraintes économiques fortes et scalabilité.
 
-Captures supplémentaires bienvenues dans le dossier `assets/`.
