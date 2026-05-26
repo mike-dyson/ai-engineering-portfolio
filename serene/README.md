@@ -25,5 +25,5 @@ Stack technique
 - Queues : Redis + BullMQ
 - Déploiement : Render + EAS Build
 
-Ce projet démontre ma capacité à concevoir des systèmes full-stack complexes** combinant backend robuste, pipelines intelligents et application mobile production-ready.
+Ce projet démontre ma capacité à concevoir des systèmes full-stack complexes combinant backend robuste, pipelines intelligents et application mobile production-ready.
 
