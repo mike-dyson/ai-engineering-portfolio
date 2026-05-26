@@ -1,27 +1,30 @@
 Serene — Intelligence Patrimoniale
 
-Application mobile d’analyse et optimisation patrimoniale avec orchestration avancée.**
+Application mobile d’analyse et optimisation patrimoniale avec orchestration avancée.
 
 Contexte
-Serene aide les utilisateurs à suivre, analyser et optimiser leur patrimoine (immobilier, financier, etc.) grâce à des outils intelligents et des workflows automatisés.
+Serene est un outil intelligent qui aide les utilisateurs à suivre, analyser et optimiser leur patrimoine (immobilier, financier, etc.) en croisant de multiples sources de données et en générant des briefings personnalisés.
 
-Défis techniques
-- Développement d’une application mobile full-stack
-- Orchestration complexe de workflows et pipelines de données
-- Analyse documentaire et génération de recommandations
-- Architecture asynchrone et scalable
+Captures du projet
 
-Architecture & Points forts
-- Architecture multi-composants avec orchestration avancée
-- Pipeline de traitement et analyse de données patrimoniales
-- Backend robuste couplé à une application React Native fluide
-- Workers asynchrones et système de notifications
+![Stack Technique Serene](assets/Serenereadme02.png)
+![Présentation & Statut](assets/Serenereadme01.png)
 
-tack technique
-- Backend : Node.js
-- Orchestration : LangGraph / workflows complexes
-- Mobile : React Native
-- Base de données : Supabase / PostgreSQL
-- Autres : Pipelines asynchrones, Redis
+Points d’architecture forts
+- Pipeline nightly complet (ingestion + analyse + génération de rapports)
+- Architecture multi-agents et workflows complexes
+- Système d’authentification sécurisé et traçabilité
+- Application mobile React Native performante
+- CI/CD complet avec tests automatisés
 
-Captures d’architecture à venir dans le dossier `serene/assets/`
+Stack technique
+- Backend : Node.js + Express
+- Orchestration & Agents : Python + LangGraph
+- Mobile : React Native + Expo
+- Bases de données : PostgreSQL + Qdrant (vectorielle)
+- Queues : Redis + BullMQ
+- Déploiement : Render + EAS Build
+
+Ce projet démontre ma capacité à concevoir des **systèmes full-stack complexes** combinant backend robuste, pipelines intelligents et application mobile production-ready.
+
+Captures supplémentaires bienvenues dans le dossier `assets/`.
