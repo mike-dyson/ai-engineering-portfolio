@@ -20,7 +20,7 @@ Points d’architecture forts
 - Infrastructure 100% européenne et souveraine
 
 Stack technique
-- **Python 3.11+ + FastAPI
+- Python 3.11+ + FastAPI
 - Neo4j (graphe de connaissances)
 - Docker Compose + conteneurs isolés
 - Certification & traçabilité avancée
