@@ -32,4 +32,4 @@ Structure du projet
 
 Ce projet démontre ma capacité à concevoir des architectures hybrides sécurisées, respectueuses de contraintes open-source tout en protégeant une valeur métier forte.
 
-Disponible pour démonstration** sur demande.
+Disponible pour démonstration sur demande.
